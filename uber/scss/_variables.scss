@@ -1,0 +1,15 @@
+$color-white: white;
+@mixin colorit {
+    color:#fff;
+    z-index: 1;
+    padding-top: 32px;
+}
+
+
+@mixin btn__hover {
+    &:hover{
+        background-image: none;
+        background-color: chocolate;
+        transition: .4s all;
+    }
+}
